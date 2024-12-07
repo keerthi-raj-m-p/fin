@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Cards</title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous"
+    >
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4p889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer"
+    >
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            object-fit: cover;
+            height: 100%;
+            border-radius: 10px 0 0 10px;
+        }
+        .card-title {
+            color: #343a40;
+            font-weight: 600;
+        }
+        .card-text {
+            color: #6c757d;
+        }
+        .text-body-secondary {
+            color: #adb5bd !important;
+        }
+        .row.g-0 {
+            align-items: center;
+        }
+        .mb-3 {
+            margin-bottom: 1.5rem !important;
+        }
+        
+    </style>
+</head>
+<body>
+
+        <!-- Repeat for additional cards -->
+    </div>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="n1.html"><img style="height: 150px;width: 150px;" src="C:\Users\Admin\Downloads\gold.webp" alt="Placeholder Image"></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Gold</h5>
+                        <p class="card-text">
+                            Gold Price And Silver Rate Today on December 7, 2024: Check latest Rates in India.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">7/12/2024</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat for additional cards -->
+    </div>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                   <a href="n2.html"><img style="height: 150px;width: 150px;" src="C:\Users\Admin\Downloads\gst.webp" class="img-fluid rounded-start" alt="Placeholder Image"></a> 
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">G S T</h5>
+                        <p class="card-text">
+                            GST collection rises 8.5 pc to Rs 1.82 lk cr in November
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">7/12/2024</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat for additional cards -->
+    </div>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="n3.html"><img style="height: 150px;width: 150px;" src="C:\Users\Admin\Downloads\rbi.avif" class="img-fluid rounded-start" alt="Placeholder Image"></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">R B I</h5>
+                        <p class="card-text">
+                            What is MuleHunter.AI? RBI's latest tool against financial fraud explained
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">6/12/2024</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat for additional cards -->
+    </div>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="n4.html"><img style="height: 150px;width: 150px;" src="C:\Users\Admin\Downloads\agri.webp" class="img-fluid rounded-start" alt="Placeholder Image"></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Agriculture</h5>
+                        <p class="card-text">
+                            India needs focus on small farmers for Viksit Bharat: PK Mishra, Principal Secretary to PM
+
+                        </p>
+                        <p class="card-text">
+                            <small class="text-body-secondary">6/12/2024</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const today = new Date();
+            const formattedDate = today.toISOString().split("T")[0]; 
+            document.getElementById('dateInput').value = formattedDate;
+        </script>
+</body>
+</html>
